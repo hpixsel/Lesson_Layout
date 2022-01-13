@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: #eee;
+}
+
+.container {
+    max-width: 65em;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/Portal_Teaser.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align: right;
+
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hero__text h1 {
+    font-size: 10rem;
+    line-height: 1;
+}
+
+.hero__text p {
+    font-size: 1.5rem;
+}
+
+.orange_box {
+    background-color: hsla(0, 0%, 100%, 4%);
+    padding-block: 4em 5em;
+}
+
+.orange_box .flex {
+    gap: 2em;
+}
+
+.orange_box h2 {
+    text-align: center;
+}
+
+.orange_box__desc {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.orange_box__item {
+    width: 100%;
+    padding: 1em;
+    background-color: hsla(0, 0%, 100%, 4%);
+    border-radius: 4px;
+}
+
+.orange_box__item img {
+    border-radius: 4px;
+    border: 1px solid hsla(0, 0%, 100%, 16%);
+}
+
+.orange_box__item h3 {
+    margin-block: 0.5em 0.25em;
+}
+
+.history {
+    padding-block: 4em 5em;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 0.25em;
+}
+
+.columns {
+    columns: 2;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.main_protagonist {
+    background-color: hsla(0, 0%, 100%, 4%);
+    padding-top: 2em;
+}
+
+.main_protagonist .flex {
+    justify-content: space-between;
+}
+
+.main_protagonist__text {
+    width: 55%;
+}
+
+.main_protagonist__text p {
+    line-height: 1.9;
+}
